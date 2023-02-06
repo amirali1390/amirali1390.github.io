@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+#nav1{
+    background: #1a2434;
+    padding-right: px;
+    padding-left: px;
+    position: relative;
+    width: 100%;
+    height: 33px;
+}
+#nav1 ul{
+list-style-type: none;
+display: flex;
+}
+.li1{font-size: 12px;
+    line-height: 2.21429;
+    display: block;
+    color: #fff;
+    font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease-out 600ms;
+    border-top: 3px solid #1a2434;
+    padding: 0 13px;
+    border-top: 3px solid #ff1541;
+    background: #49505C;
+   margin-left: 5px;
+}
+    
+.li2{
+    font-size: 12px;
+    line-height: 2.21429;
+    display: block;
+    color: #fff;
+    font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease-out 600ms;
+    border-top: 3px solid #1a2434;
+    padding: 0 16px;
+}
+.li3{
+    font-size: 12px;
+    line-height: 2.21429;
+    display: block;
+    color: #fff;
+    font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease-out 600ms;
+    border-top: 3px solid #1a2434;
+    padding: 0 16px;
+}
+.li4{
+    font-size: 12px;
+    line-height: 2.21429;
+    display: block;
+    color: #fff;
+    font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease-out 600ms;
+    border-top: 3px solid #1a2434;
+    padding: 0 16px;
+}
+.li5{
+    font-size: 12px;
+    line-height: 2.21429;
+    display: block;
+    color: #fff;
+    font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease-out 600ms;
+    border-top: 3px solid #1a2434;
+    padding: 0 16px;
+}
+.li6{
+    font-size: 12px;
+    line-height: 2.21429;
+    display: block;
+    color: #fff;
+    font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease-out 600ms;
+    border-top: 3px solid #1a2434;
+    padding: 0 16px; 
+
+}
+.li1:hover{
+    background: #49505C;
+}
+.li2:hover{
+    background: #49505C;
+}
+.li3:hover{
+    background: #49505C;
+}
+.li4:hover{
+    background: #49505C;
+}
+.li5:hover{
+    background: #49505C;
+}
+.li6:hover{
+    background: #49505C;
+}
+a{
+    text-decoration:none;
+}
+#nav2{
+    width: 100%;
+    height: 154px;
+    background-color: white;
+}
+#icon1{
+    width: 72px;
+    height: 72px;
+    background-image: url(../images/psg-logo.png);
+    background-size: 100% 100%;
+   margin: 0 auto;
+   box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+   border-radius: 50%;
+}
+body{
+  font-size:16px ;
+    line-height: 1.875;
+    color: #151e2d;
+    font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
+    position: relative;
+    background: #151e2d;
+    -webkit-font-smoothing: antialiased;
+}
