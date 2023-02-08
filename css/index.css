@@ -341,8 +341,7 @@ margin-right: 5px;
     colotransition: all 200ms ease 0s;r: red;
     display: flex;
     margin-top: -320px;
-
-margin-left: 1450px;
+margin-left: 1400px;
 overflow: hidden;
 position: absolute;
 
@@ -513,7 +512,7 @@ color: white;
     color: red;
 margin-top: -170px;
     font-size: 20px;
-   margin-left: 1410px;
+   margin-left: 1370px;
 position: relative;
 display: none;
 cursor: pointer;
