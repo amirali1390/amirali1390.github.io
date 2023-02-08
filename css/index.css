@@ -393,7 +393,7 @@ height: 0px;
     padding: 0;
     background: #242D3C;
     margin-top: 11px;
-
+text-decoration: none;
  transition: all 200ms;
     transform: scale(1) translateY(0) translateX(0);
     font-size: 13px;
@@ -507,14 +507,18 @@ color: white;
 }               
 .newsearch{
     display: block;
+
 }
 .iconenav6{
     color: red;
-margin-top: -170px;
+margin-top: -150px;
     font-size: 20px;
-   margin-left: 1370px;
+   margin-left: 1360px;
 position: relative;
 display: none;
 cursor: pointer;
 
+}
+ul{
+    list-style-type: none;
 }
