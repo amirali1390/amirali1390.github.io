@@ -475,12 +475,13 @@ color: white;
         font-size: 20px;
        } 
        .serch{
-        width: 1600px;
+        width: 1583px;
         height: 60px;
         background-color: black;
         color: white;
         overflow: hidden;
         display: none;
+        position: relative;
        }   
        .bodynew{
         background: rgba(21,30,45,0.7);
@@ -523,4 +524,46 @@ cursor: pointer;
 }
 ul{
     list-style-type: none;
+}
+#neymar{
+  width: 1583px;
+  height: 630px; 
+  overflow: hidden;
+   
+}
+#imgneymar{
+    width: 1000px;
+    height: 650px;
+}
+.cssfilters .psuedo-image {
+    display: block;
+}
+.psuedo-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(50px);
+    -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
+    opacity: .35;
+width: 600px;
+height: 600px;
+margin-left: 60.5%;
+margin-top: 200px;
+}
+.ft{
+    color: red;
+text-align: right;
+margin-top: -700px;
+position: relative;
+margin-right: 160px;
 }
