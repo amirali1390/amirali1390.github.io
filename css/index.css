@@ -243,13 +243,13 @@ body{
 }
 
 .meno{
-    width: 1600px;
+    width: 1580px;
 height: 0px;
     background-image: url(../images/nav-bg-logo-desktop.png);
     background-color: #C8CACD;
-  overflow: hidden;
+overflow: hidden;
  transition: all 500ms ease 0s;
-
+position:absolute;
 }
 
 .header__sidebar-toggle .bar:first-child {
@@ -269,7 +269,7 @@ height: 0px;
     float: none;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0;   overflow: hidden;
 }
 
 #ulorginalmeno{
@@ -277,6 +277,7 @@ height: 0px;
     height: 222px;
     border: 1px solid black;
     margin-left: 5px;
+ 
 }
 #ulmeno1{
     width: 286px;
@@ -284,6 +285,7 @@ height: 0px;
     border: 1px solid black;
      margin-left: 300px;
 margin-top: -180px;
+;
 }
 #ulmeno2{
     width: 286px;
@@ -339,13 +341,13 @@ height: 526px;
 margin-right: 5px;
 }
 .iconnavorginal{
-   
+   margin-left: 89%;
    width: 150px;
     display: flex;
-    margin-top: -320px;
+    margin-top: -720px;
 overflow: hidden;
-position: absolute;
-margin-left: 89%;
+position:absolute;
+
 }
 .iconnav1{
 transition: all 200ms ease 0s;
@@ -374,6 +376,7 @@ transition: all 200ms ease 0s;
    padding-right: 20px;
    display: block;
    font-size: 20px;
+   
 
    }
    .iconnav1:hover{
@@ -398,9 +401,10 @@ height: 0px;
 text-decoration: none;
  transition: all 200ms;
     transform: scale(1) translateY(0) translateX(0);
-    font-size: 13px;
-    float: right;
+    font-size: 12px;
+   margin-left: 90%;
     font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+position: absolute;
    }
    .menoglobe1{
 transition: all 300ms ease 0s;
@@ -468,6 +472,7 @@ color: white;
                             }
        .menoglobenew{
         height: 370px;
+
        }  
        .iconenav4{
         color: red;
@@ -475,13 +480,14 @@ color: white;
         font-size: 20px;
        } 
        .serch{
-        width: 1583px;
+        width: 1580px;
         height: 60px;
         background-color: black;
         color: white;
         overflow: hidden;
         display: none;
-        position: relative;
+      position: relative;
+ 
        }   
        .bodynew{
         background: rgba(21,30,45,0.7);
@@ -502,6 +508,7 @@ color: white;
         color: white;
         text-align: center;
         font-weight: 700;
+        position: relative;
     }
 .diviconnav5{
     font-size: 20px;
@@ -529,41 +536,93 @@ ul{
   width: 1583px;
   height: 630px; 
   overflow: hidden;
-   
+
 }
 #imgneymar{
     width: 1000px;
     height: 650px;
+ z-index: 10;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+  overflow: hidden;
+transition: all 600ms ease 0s; 
 }
-.cssfilters .psuedo-image {
-    display: block;
-}
+
 .psuedo-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: absolute;
+position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-  
     z-index: 0;
-    width: 100%;
-    height: 100%;
     filter: blur(50px);
-    -webkit-transform-style: preserve-3d;
+    
     backface-visibility: hidden;
     opacity: .35;
-width: 600px;
-height: 600px;
+overflow: hidden;
+width: 500px;
+height: 500px;
 margin-left: 60.5%;
 margin-top: 200px;
 }
-.ft{
+.te{
     color: red;
-text-align: right;
-margin-top: -700px;
-position: relative;
-margin-right: 160px;
+margin-left: 65%;
+margin-top: -500px;
+position: absolute;
+font-size: 13px;
+}
+.textneymar{
+position: absolute;
+    color: white;
+margin-left: 65%;
+    margin-top: -450px;
+}
+#neymar:hover img{
+    transform: scale(1.1);
+}
+#divneymar{
+    overflow: hidden;
+    width: 1000px;
+    height: 650px;
+}
+#tms{
+display: flex;
+
+}
+.Resultsorginal{
+margin-left: 65%;
+    width: 543px;
+    height: 121px;
+    background: rgba(12,19,36,0.6);
+margin-top: -200px;
+position: absolute;
+}
+#Results1{
+    width: 40px;
+    height: 46px;
+    background-color: rgba(255, 0, 0, 0.596);
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+margin-left: 350px;
+}
+#Results{
+display: flex;
+overflow: hidden;
+}
+#Results2{
+    width: 40px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 430px;
+   position:absolute;
 }
