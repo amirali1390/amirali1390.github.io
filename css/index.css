@@ -138,6 +138,7 @@ body{
     position: relative;
     background: #151e2d;
     -webkit-font-smoothing: antialiased;
+overflow-x: hidden;
 }
 .top-nav__wrap{
     display: flex;
@@ -538,7 +539,7 @@ ul{
   overflow: hidden;
 
 }
-#imgneymar{
+.imgneymar{
     width: 1000px;
     height: 650px;
  z-index: 10;
@@ -551,10 +552,8 @@ transition: all 600ms ease 0s;
 }
 
 .psuedo-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-position: absolute;
+
+
     left: 0;
     right: 0;
     top: 0;
@@ -573,15 +572,15 @@ margin-top: 200px;
 .te{
     color: red;
 margin-left: 65%;
-margin-top: -500px;
-position: absolute;
+margin-top: -10%;
+
 font-size: 13px;
 }
 .textneymar{
-position: absolute;
+
     color: white;
 margin-left: 65%;
-    margin-top: -450px;
+margin-top: -25%;
 }
 #neymar:hover img{
     transform: scale(1.1);
@@ -601,7 +600,7 @@ margin-left: 65%;
     height: 121px;
     background: rgba(12,19,36,0.6);
 margin-top: -200px;
-position: absolute;
+
 }
 #Results1{
     width: 40px;
@@ -609,8 +608,7 @@ position: absolute;
     background-color: rgba(255, 0, 0, 0.596);
     color: white;
     border-radius: 5px;
-    position: absolute;
-margin-left: 350px;
+
 }
 #Results{
 display: flex;
@@ -623,6 +621,39 @@ overflow: hidden;
     color: white;
     border-radius: 5px;
     padding-left: 5px;
-    margin-left: 430px;
-   position:absolute;
+}
+.newneymar{
+    margin-top: 5%;
+    transition: none;
+}
+#Practiceimg{
+    width: 507.63px;
+    height: 338.58px;
+    transition: all 600ms ease 0s;
+}
+.cols{
+    margin-top: 350px;
+}
+.Practice{
+    width: 507px;
+    height: 518px;
+    font-family: sans-serif;
+overflow: hidden;
+}
+#textPractice{
+    margin-top: 10px;
+
+}
+.first{
+    color: red;
+    font-size: 12px;
+font-weight: 700;
+}
+.Practice:hover img{
+    transform: scale(1.1);
+}
+#gd{
+    width: 507.63px;
+    height: 338.58px;
+    overflow: hidden;
 }

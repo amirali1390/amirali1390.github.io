@@ -7,6 +7,7 @@ const meno  = document.querySelector(".menoglobe")
 const icon4 = document.querySelectorAll("i")
 const serch =document.querySelector(".serch")
 const body =document.querySelector("body")
+const ney =document.querySelector(".imgneymar")
 
 icon.addEventListener("click", function(){
 nav[6].classList.toggle("menoopen");
@@ -34,11 +35,11 @@ nav[15].addEventListener("click" ,function(){
 serch.classList.add("newsearch")
         nav[15].style.display ="none";
         nav[11].style.display ="block";
-      
+      ney.classList.add("newneymar")
 });
 nav[11].addEventListener("click" ,function(){
     serch.classList.remove("newsearch")
             nav[11].style.display ="none";
             nav[15].style.display ="block";
-   
+   ney.classList.remove("newneymar")
     }); 
