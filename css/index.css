@@ -639,7 +639,7 @@ overflow: hidden;
     transition: all 600ms ease 0s;
 }
 .cols{
-    margin-top: 350px;
+    margin-top: -5F0px;
 }
 .Practice{
     width: 507px;
@@ -728,12 +728,13 @@ font-weight: 700;
     color: #1a2434;   
 }
 #mp{
-    width: 507.63px;
-    height: 338.58px;
-    transition: all 600ms ease 0s;       cursor: pointer;
+    width: 100%;
+    height:100;
+    transition: all 600ms ease 0s; 
+          cursor: pointer;
 }
 #mpdiv{
-width: 507.63px;
+
 height: 338.58px;
 overflow: hidden;
 }
@@ -743,12 +744,16 @@ overflow: hidden;
 
 }
 .mpdivor{
-    width: 507px;
+
     height: 518px;
     font-family: sans-serif;
 overflow: hidden;
-padding-left: 50px;
-
+padding-left: 30px;
+padding-right:30px;
+}
+.mpdivor h3{
+padding: 0;
+height: 0;
 }
 .mpdivor:hover img{
     transform: scale(1.1);
