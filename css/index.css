@@ -884,37 +884,39 @@ width: 100%;
 overflow: hidden;
 }
 .neymar2{
-    width: 327.5;
-    height:383.44px ;
-    padding-left: 60px;
+    width: 100%;
+    height:200px ;
+    padding-left: 30px;
     overflow: hidden;
     cursor: pointer;
-    padding-left: 60px;
+    padding-right: 30px;
 }
 #neymarimg2{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 100%;
     transition: all 600ms ease 0s ;
 }
 .neymar2:hover img{
 transform: scale(1.1);
 }
 .neymar2 h3{
-    font-size: 17px;
+    margin-left: 160px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;  
 }
 .wn{
-    width: 327.5;
-    height:383.44px ;
-    padding-left: 60px;
+    width: 100%;
+    height:200px ;
+    padding-left: 30px;
     overflow: hidden;
     cursor: pointer;
+    padding-right: 30px;
 }
 #wnimg{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 100%;
     transition: all 600ms ease 0s    
 }
 .wn:hover img{
@@ -924,24 +926,28 @@ transform: scale(1.1);
     color: #1abfce;
     font-size: 12px;
     font-weight: 700;
+    margin-left: 150px;
+    margin-top: -100px;
+ 
 }
 .wn h3{
-
-    font-size: 17px;
+    margin-left: 160px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;  
 }
 .hl{
-    width: 327.5;
-    height:383.44px ;
-    padding-left: 60px;
+    width: 100%;
+    height:200px ;
+    padding-left: 30px;
     overflow: hidden;
-    cursor: pointer;  
+    cursor: pointer;
+    padding-right: 30px;  
 }
 #hlimg{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 100%;
     transition: all 600ms ease 0s    
 }
 .hl:hover img{
@@ -951,52 +957,55 @@ transform: scale(1.1);
     color: #0b46eb;
     font-size: 12px;
     font-weight: 700;
+    margin-left: 150px;
+    margin-top: -100px;
 }
 
 .hl h3{
-    font-size: 17px;
+    margin-left: 160px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
-    color: #1a2434; 
+    color: #1a2434;  
 }
-.j{
-    width: 327.5;
-    height:383.44px ;
-    padding-left: 60px;
+.jj{
+    width: 100%;
+    height:200px ;
+    padding-left: 30px;
     overflow: hidden;
-    cursor: pointer;  
+    cursor: pointer;
+    padding-right: 30px;  
 }
 #jjimg{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 100%;
     transition: all 600ms ease 0s  
 }
 .jj:hover img{
     transform: scale(1.1);
 }
 .jj h3{
-    font-size: 17px;
+    margin-left: 160px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;  
 }
 .Flight{
-
-    height: 218.44px;
-
     overflow: hidden;
     cursor: pointer;  
 }
 #Flightimg{
-  
-    height: 218.44px;
+  width: 100%;
+    height: 100%;
     transition: all 700ms ease 0s  
 }
 .row{
     background-color: white;
 }
 .Flightor{
-   padding-left: 70px;   
+ padding-left: 30px;
+ padding-right: 10px
 }
 .Flight:hover img{
     transform: scale(1.1);
@@ -1010,51 +1019,48 @@ transform: scale(1.1);
     margin-left: 25%;
 }
 .Flight h3{
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;  
-    margin-left: 57%;
-    margin-top: -15%;
+ 
 }
-
+.Practiceimgdiv3{
+    width: 100%;
+    
+    overflow: hidden;
+}
 .team{
-  
-    height: 218.44px;
 
+margin-top: 20px;
     overflow: hidden;
     cursor: pointer;  
 }
 #teamimg{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 1005;
     transition: all 700ms ease 0s  
 }
 .team:hover img{
 transform: scale(1.1);
 }
-.team h6{
-    color: red;
-    font-weight: 700;
-    font-size: 15px;
-    position:absolute ;  
-    margin-top: -5%;
-    margin-left: 25%;
+.team1{
+    padding-left: 30px;
+    padding-right: 10px;
 }
 .team h3{
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;  
-    margin-left: 57%;
-    margin-top: -15%;  
 }
 .teams{
     display: flex;
-margin-left: 30%;
+font-size: 15px;
 font-family: sans-serif;
-
+font-weight: 700px;
 }
+
 #li4{
     padding-left: 15px;
     cursor: pointer;
