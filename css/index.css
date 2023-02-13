@@ -750,7 +750,8 @@ overflow: hidden;
 .tf1{    color: red;
     font-weight: 700;
     font-size: 12px;
-
+    margin-left: 150px;
+    margin-top: -100px;
 }
 .mpdivor{
 
@@ -768,18 +769,19 @@ height: 0;
     transform: scale(1.1);
 }
 #Practiceimg2{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 100%;
     transition: all 600ms ease 0s ;
 }
 .Practice2{
-    width: 327.5;
-    height:383.44px ;
+    width: 100%;
+    height: 200px; ;
     padding-left: 60px;
     overflow: hidden;    cursor: pointer;
 }
 .Practice2 h3{
-    font-size: 20px;
+    margin-left: 160px;
+    font-size: 17px;
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;   
@@ -788,8 +790,8 @@ height: 0;
     transform: scale(1.1);
 }
 .Practiceimgdiv{
-    width: 327.5px;
-    height: 218.44px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
 }
 .Practice3{
