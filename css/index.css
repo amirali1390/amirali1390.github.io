@@ -654,6 +654,7 @@ padding-right: 30px;
 }
 #textPractice{ 
     margin-left: 160px;
+    font-size: 17px;
 }
 .first{
     color: red;
@@ -670,35 +671,36 @@ margin-top: -100px;
     height: 150px;
     overflow: hidden;
 }
-#card1{
-    width:327.5px ;
+.card1{
+width: 300px;
     height: 74.77px;
     border-left: 5px solid #E8E8E8;
     margin: 0 17px;
     cursor: pointer; list-style-type: none;
 }
-#card1 li{
+.card1 li{
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;
+    font-size: 15px;
 }
-#card1 h6{
+.card1 h6{
     color:     #1abfce;
     font-size: 12px;
     font-weight: 700;
 }
-#card2{
-    width:327.5px ;
+.card2{
+  width: 300px;
     height: 74.77px;
     border-left: 5px solid #E8E8E8;
     margin: 0 17px;
   list-style-type: none;
   cursor: pointer;  margin-top: 40px;
 }
-#card2 li{
+.card2 li{
     line-height: 1.4;
     font-weight: bold;
-    color: #1a2434;   
+    color: #1a2434;    font-size: 15px;  
 }
 .tf{
     color: red;
@@ -706,31 +708,33 @@ margin-top: -100px;
 
     font-size: 11px;
 }
-#card3{
-    width:327.5px ;
+.card3{
+width: 300px;
     height: 70.77px;
     border-left: 5px solid #E8E8E8;
     margin: 0 17px;
   list-style-type: none;
   margin-top: 40px;  
   cursor: pointer;}
-#card3 li{
+.card3 li{
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;   
+    font-size: 15px;
 } 
-#card4{
-    width:327.5px ;
+.card4{
+  width: 300px;
     height: 70.77px;
     border-left: 5px solid #E8E8E8;
     margin: 0 17px;
   list-style-type: none;
   margin-top: 40px;     cursor: pointer; 
 }
-#card4 li{
+.card4 li{
     line-height: 1.4;
     font-weight: bold;
     color: #1a2434;   
+    font-size: 15px;
 }
 #mp{
     width: 100%;
