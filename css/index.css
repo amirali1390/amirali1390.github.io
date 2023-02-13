@@ -415,7 +415,7 @@ text-decoration: none;
  transition: all 200ms;
     transform: scale(1) translateY(0) translateX(0);
     font-size: 12px;
-   margin-left: 90%;
+ margin-left: 65%;
     font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
 position: absolute;
    }

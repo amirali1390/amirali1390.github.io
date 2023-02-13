@@ -15,19 +15,19 @@ icon1[0].classList.toggle("bar1new");
 icon2[1].classList.toggle("bar2new");
 icon2[2].classList.toggle ("bar3new");
 });
-nav[17].addEventListener("click" ,function(){
+nav[5].addEventListener("click" ,function(){
     meno.classList.add("menoglobenew")
        
-        nav[17].style.display ="none";
-        nav[18].style.display ="block";
+        nav[5].style.display ="none";
+        nav[6].style.display ="block";
    
 
 }) ;
-nav[18].addEventListener("click" ,function(){
+nav[6].addEventListener("click" ,function(){
     meno.classList.remove("menoglobenew")
        
-    nav[18].style.display ="none";
-    nav[17].style.display ="block";
+    nav[6].style.display ="none";
+    nav[5].style.display ="block";
    
 
 }) ;
