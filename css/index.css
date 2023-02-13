@@ -4,8 +4,19 @@
     border: 0;
     outline: 0;
 }
+
 @media all and (max-width:849px){
-#nav1{
+body{
+    
+      
+      color: #151e2d;
+      font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
+
+      background: #151e2d;
+ 
+ 
+  }
+    #nav1{
     background: #1a2434;
     padding-right: px;
     padding-left: px;
@@ -132,16 +143,7 @@ margin-top: -50px;
 
 
 }
-body{
-  font-size:16px ;
-    line-height: 1.875;
-    color: #151e2d;
-    font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
-    position: relative;
-    background: #151e2d;
-    -webkit-font-smoothing: antialiased;
 
-}
 .top-nav__wrap{
     display: flex;
     align-items: center;
