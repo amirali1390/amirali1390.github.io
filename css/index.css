@@ -1081,54 +1081,55 @@ font-weight: 700px;
 margin-left: 50%;
 }
 .bs{
-    width: 1590.97px;
-    height: 1569.94px;
+    width: 100;
+    height: 1830px;
     background-color: transparent;
 }
 .monaco{
-    width: 1400px;
-    height: 456.89;
-    padding-top: 7px;
-    margin-left: 70px;
-    display: flex;
+    width: 100%;
+padding-top: 100px;
+
 }
 #monacoimg{
     transition: all 700ms ease 0s;
+    width: 100%;
+    height: 100%;
 }
 .monaco:hover img{
     transform: scale(1.1);
 }
 .monacodivimg{
-    width: 1000px;
-    height: 533px; 
+    width: 100%;
+ padding-left: 10px;
+ padding-right: 10px;
     overflow: hidden;
 }
 .tf3{
     color: red;
     font-weight: 700;
     font-size: 13px;
- margin-top: 20%;
 
- text-align: center;
 }
 .monaco h3{
-    font-size: 40px;
+    font-size: 22px;
     line-height: 1.4;
     font-weight: bold;
     color: white;  
-    margin-top: 25%;
-    margin-left: -40px;
+}
+.bs h2{
+    color: white;
+   position: absolute;
 }
 .hl2{
-    width: 327.5;
-    height:383.44px ;
-    padding-left: 60px;
+    width: 100%;
+    padding-left: 30px;
     overflow: hidden;
-    cursor: pointer;  
+    cursor: pointer;
+    padding-right: 30px;  
 }
 #hl2img{
-    width: 327.5px;
-    height: 218.44px;
+    width: 100%;
+    height: 100%;
     transition: all 600ms ease 0s      
 }
 .endlist{
@@ -1139,27 +1140,32 @@ margin-left: 50%;
     transform: scale(1.1);
 }
 .hl2 h6{
-    color: #547ff7;
+    color: #0b46eb;
     font-size: 12px;
     font-weight: 700;
-    font-family: sans-serif;
+    margin-left: 150px;
+    margin-top: -100px;
 }
 .hl2 h3{
-    font-size: 18px;
+    margin-left: 160px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
-    color: white;  
+    color: white;
 }
+
 .copy2{
     overflow: hidden;
     cursor: pointer;  
-    width: 327.5;
-    height:383.44px ;
+    width: 100%;
+    
     padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
 }
 #copy2img{
-    width: 327.5px;
-    height: 218.44px;
+    width:100%;
+    height: 100%;
     transition: all 600ms ease 0s  
 
 }
@@ -1167,67 +1173,77 @@ margin-left: 50%;
     transform: scale(1.1);
 }
 .copy2 h3{
-    font-size: 18px;
+    margin-left: 160px;
+    font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
-    color: white;  
+    color: white;
 }
 #copy3{
-    width: 327.5px;
-    height: 218.44px;
-    transition: all 600ms ease 0s  
+    width: 100%;
+    height: 100%;
+    transition: all 600ms ease 0s 
+     
 }
 
 
-.copy3{width: 327.5;
-    height:383.44px ;
+.copy3{
+padding-top: 50px;
+    width: 100%;
     padding-left: 30px;
     overflow: hidden;
     position: relative;
     cursor: pointer;}
     #copy3img{
-        width: 327.5px;
-        height: 218.44px;
+    height: 100%;
+        width: 100%;
         transition: all 600ms ease 0s  
     }
     .copy3:hover img{
         transform: scale(1.1);
     }
     .copy3 h3{
-        font-size: 18px;
+        margin-left: 160px;
+        font-size: 15px;
         line-height: 1.4;
         font-weight: bold;
-        color: white;  
+        color: white;
     }
     .hl3{
-        width: 327.5;
-        height:383.44px ;
+  
+        width: 100%;
         padding-left: 30px;
         overflow: hidden;
         cursor: pointer;  
+        padding-right: 30px;
+        padding-top: 50px;
     }
     #hl3img{
-        width: 327.5px;
-        height: 218.44px;
+   width: 100%;
+   height: 100%;
         transition: all 600ms ease 0s   
     }
     .hl3:hover img{ 
         transform: scale(1.1)
     }
     .hl3 h6{
-        color: #547ff7;
+        color: #0b46eb;
         font-size: 12px;
         font-weight: 700;
-        font-family: sans-serif;
+        margin-left: 150px;
+        margin-top: -100px;
     }
     .hl3 h3{
-        font-size: 18px;
+        margin-left: 160px;
+        font-size: 15px;
         line-height: 1.4;
         font-weight: bold;
-        color: white;  
+        color: white;
     }
     #BH{
         margin: 0 auto;
+       margin-top: 40px;
+        
         width: 110.5px;
         height: 45px;
         color: white;
@@ -1239,15 +1255,12 @@ margin-left: 50%;
     text-align: center;
     justify-content: center;
 font-family: sans-serif;
-margin-top: 5px;
+margin-top: 10px;
 }
-#BH:hover{
-    color: #fff;
-    background: #344767;
-}
-#fire{
-    width: 1398px;
-    height: 385px;
+
+.fire{
+    width: 100%;
+    height: 410px;
     background-image: url(../images/dsc04128b.jpg);
     background-repeat: no-repeat;
     background-size: cover;
