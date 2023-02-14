@@ -5,7 +5,7 @@
     outline: 0;
 }
 
-@media all and (max-width:849px){
+@media all and (max-width:767px){
 body{
     
       
@@ -742,7 +742,7 @@ width: 300px;
     transition: all 600ms ease 0s; 
           cursor: pointer;
 }
-#mpdiv{
+.mpdiv{
 
 height: 338.58px;
 overflow: hidden;
@@ -774,14 +774,14 @@ width: 100%;
 }
 .Practice2{
     width: 100%;
-    height: 200px; ;
+   
     padding-left: 30px;
     overflow: hidden;
-    padding-right: 30px;
+  
     cursor: pointer;
 }
 .Practice2 h3{
-    margin-left: 160px;
+ 
     font-size: 15px;
     line-height: 1.4;
     font-weight: bold;
@@ -797,7 +797,7 @@ width: 100%;
 }
 .Practice3{
     width: 100%;
-    height:200px ;
+    height: 200px;
     padding-left: 30px;
     overflow: hidden;
  padding-right: 30px;
@@ -849,6 +849,7 @@ position: absolute;
     overflow: hidden;
     cursor: pointer;
     padding-right: 30px;
+    padding-top: 50px;
 }
 .paris h3{
     margin-left: 160px;
@@ -859,6 +860,10 @@ position: absolute;
 }
 .paris:hover img{
     transform: scale(1.1);
+}
+.dio{
+    width: 100%;
+    overflow: hidden;
 }
 .pk{
     width: 327.5;
@@ -1016,7 +1021,7 @@ transform: scale(1.1);
     font-size: 15px;
     position:absolute ;
     margin-top: -5%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 .Flight h3{
     font-size: 15px;
@@ -1337,4 +1342,1357 @@ color: white;
 border-radius: 5px;
 }
 }
+ @media all and (min-width:768px)  and  (max-width:849px){
+    body{
+    
+      
+        color: #151e2d;
+        font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
+  
+        background: #151e2d;
+   
+   
+    }
+    #nav1{
+        background: #1a2434;
+        padding-right: px;
+        padding-left: px;
+        position: relative;
+        width: 100%;
+        height: 33px;
+        display: none;
+    }
+    #nav1 ul{
+    list-style-type: none;
+    display: none;
+    }
+    .li1{font-size: 12px;
+        line-height: 2.21429;
+        display: none;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 600ms;
+        border-top: 3px solid #1a2434;
+        padding: 0 13px;
+        border-top: 3px solid #ff1541;
+        background: #49505C;
+       margin-left: 5px;
+    }
+        
+    .li2{
+        font-size: 12px;
+        line-height: 2.21429;
+        display: none;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 600ms;
+        border-top: 3px solid #1a2434;
+        padding: 0 16px;
+    }
+    .li3{
+        font-size: 12px;
+        line-height: 2.21429;
+        display: none;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 600ms;
+        border-top: 3px solid #1a2434;
+        padding: 0 16px;
+    }
+    .li4{
+        font-size: 12px;
+        line-height: 2.21429;
+        display: none;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 600ms;
+        border-top: 3px solid #1a2434;
+        padding: 0 16px;
+    }
+    .li5{
+        font-size: 12px;
+        line-height: 2.21429;
+        display: none;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 600ms;
+        border-top: 3px solid #1a2434;
+        padding: 0 16px;
+    }
+    .li6{
+        font-size: 12px;
+        line-height: 2.21429;
+        display: none;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 600ms;
+        border-top: 3px solid #1a2434;
+        padding: 0 16px; 
+    
+    }
+    .li1:hover{
+        background: #49505C;
+    }
+    .li2:hover{
+        background: #49505C;
+    }
+    .li3:hover{
+        background: #49505C;
+    }
+    .li4:hover{
+        background: #49505C;
+    }
+    .li5:hover{
+        background: #49505C;
+    }
+    .li6:hover{
+        background: #49505C;
+    }
+    a{
+        text-decoration:none;
+    }
+    #nav2{
+        width: auto;
+        height: 55px;
+        background-color: white;
+    
+    }
+    .icon1{
+        width: 42px;
+        height: 42px;
+        background-image: url(../images/psg-logo.png);
+        background-size: 100% 100%;
+    margin-top: -50px;
+       box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+       border-radius: 50%;
+    
+    
+    }
+    
+    .top-nav__wrap{
+        display: flex;
+        align-items: center;
+    }
+    .header__nav{
+        flex: 1;
+        text-align:center;
+        justify-content: center;
+    
+    }
+    .top-nav__list{
+        display: none;
+        list-style: none;
+    }
+    .top-nav__item{
+        padding: 10px 18px 0;
+    
+    }
+    .top-nav__link {
+        font-size: 10px;
+        font-size: 1rem;
+        display: none;
+        color: #1a2434;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all ease-out 800ms;
+        padding-bottom: 1px;
+        border-bottom: 2px solid #fff;
+    }
+    .top-nav__link:hover {
+        outline: none;
+        color: #1a2434;
+        text-decoration: none;
+        transition: all ease-out 300ms;
+        border-color: #C8CACD;
+    }
+    .header__sidebar-toggle {
+      
      
+    
+         margin-top: -55px;
+    
+    
+    
+     margin-right: -20px;
+     
+        width: 25px;
+        background: none;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        cursor: pointer;
+        position: absolute;
+        padding: 0;
+        height: 14px;
+        margin-right: 40px;
+    
+    }
+    .header__sidebar-toggle .bar {
+        background: #1a2434;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        transition: all 0.2s;
+        transform-origin: center center;
+    
+    }
+    .header__sidebar-toggle .bar:first-child {
+        top: 0;
+    }
+    .header__sidebar-toggle .bar:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .header__sidebar-toggle .bar:nth-child(3) {
+        bottom: 0;
+    }
+    .header__sidebar-toggle__close {
+        font-size: 14px;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 25px;
+        padding-left: 8px;
+        top: -4px;
+        display: none;
+        opacity: .6;
+        font-weight: 300;
+    }
+    .main-sidebar__inner {
+        overflow: auto;
+        background: #f2f2f2;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        z-index: 1;
+        border-top: 1px solid #E0E0E0;
+        position: relative;
+    }
+    .main-sidebar__content {
+        min-height: 100%;
+        position: relative;
+    }
+    .main-nav__list li {
+        float: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .meno{
+        width: 1580px;
+    height: 0px;
+        background-image: url(../images/nav-bg-logo-desktop.png);
+        background-color: #C8CACD;
+    overflow: hidden;
+     transition: all 500ms ease 0s;
+    position:absolute;
+    }
+    
+    .header__sidebar-toggle .bar:first-child {
+        top: 0;
+        transition: all ease 500ms;
+    }
+    .header__sidebar-toggle .bar:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all ease 300ms;
+    }
+    .header__sidebar-toggle .bar:nth-child(3) {
+        bottom: 0;
+        transition: all ease 500ms;
+    }
+    #limeno{
+        float: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;   overflow: hidden;
+    }
+    
+    #ulorginalmeno{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+        margin-left: 5px;
+     
+    }
+    #ulmeno1{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+         margin-left: 300px;
+    margin-top: -180px;
+    ;
+    }
+    #ulmeno2{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+       margin-left: 600px;
+       margin-top: -225px;
+    }
+    #ulmeno3{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+        margin-left: 900px;
+        margin-top: -224px;
+    }
+    #ulmeno4{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+        margin-left: 1200px;
+        margin-top: -224px;
+    }
+    #ulmeno5{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+           margin-top: 5px;
+    }
+    #ulmeno6{
+        width: 286px;
+        height: 222px;
+        border: 1px solid black;
+    margin-left: 300px;
+    margin-top: -220px;
+    }
+    .menoopen{
+    height: 526px;
+    
+    }
+    
+    .bar1new {
+        transform: rotate(38deg);
+      margin-top: 10px;
+    }
+    
+    .bar2new {
+        transform: scaleX(0);
+        display: none;
+    }
+    
+    .bar3new {
+        transform: rotate(-38deg);
+    margin-right: 5px;
+    }
+    .iconnavorginal{
+    align-items: flex-start;
+       width: 150px;
+        display: flex;
+        margin-top: -55px;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+    
+    }
+    .iconnav1{
+    transition: all 200ms ease 0s;
+     color: black;
+    word-spacing: 50px;
+    cursor: pointer;
+    padding-right: 20px;
+    display: none;
+    font-size: 20px;
+    
+    }
+    .iconnav2{
+    
+        color: black;
+      margin-top: -5px;
+       cursor: pointer;
+       padding-right: 20px;
+       display: block;
+       font-size: 25px;
+       }
+       .iconnav3{
+    transition: all 200ms ease 0s;
+        color: black;
+       word-spacing: 50px;
+       cursor: pointer;
+       padding-right: 20px;
+       display: block;
+       font-size: 20px;
+       
+    
+       }
+       .iconnav1:hover{
+        text-decoration: none;
+        color: #ff1541;
+       }
+       .iconnav2:hover{
+        text-decoration: none;
+        color: #ff1541;
+       }   .iconnav3:hover{
+        text-decoration: none;
+        color: #ff1541;
+       }
+       .menoglobe{
+        width: 150px;
+    height: 0px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background: #242D3C;
+        margin-top: 11px;
+    text-decoration: none;
+     transition: all 200ms;
+        transform: scale(1) translateY(0) translateX(0);
+        font-size: 12px;
+     margin-left: 65%;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+    position: absolute;
+       }
+       .menoglobe1{
+    transition: all 300ms ease 0s;
+    cursor: pointer;
+    color: white;
+       }
+       .menoglobe1:hover{
+        color: #ff1541;
+       }
+       .menoglobe2{
+        transition: all 300ms ease 0s;
+        cursor: pointer;
+        color: red;
+           }
+           .menoglobe2:hover{
+            color: #ff1541;
+           }
+           .menoglobe3{
+            transition: all 300ms ease 0s;
+            cursor: pointer;
+            color: white;
+               }
+               .menoglobe3:hover{
+                color: #ff1541;
+               }
+               .menoglobe4{
+                transition: all 300ms ease 0s;
+                cursor: pointer;
+                color: white;
+                   }
+                   .menoglobe4:hover{
+                    color: #ff1541;
+                   }
+                   .menoglobe5{
+                    transition: all 300ms ease 0s;
+                    cursor: pointer;
+                    color: white;
+                       }
+                       .menoglobe5:hover{
+                        color: #ff1541;
+                       }
+                       .menoglobe6{
+                        transition: all 300ms ease 0s;
+                        cursor: pointer;
+                        color: white;
+                           }
+                           .menoglobe6:hover{
+                            color: #ff1541;
+                           }
+                           .menoglobe7{
+                            transition: all 300ms ease 0s;
+                            cursor: pointer;
+                            color: white;
+                               }
+                               .menoglobe7:hover{
+                                color: #ff1541;
+                               }
+                               .menoglobe8{
+                                transition: all 300ms ease 0s;
+                                cursor: pointer;
+                                color: white;
+                                   }
+                                   .menoglobe8:hover{
+                                    color: #ff1541;
+                                }
+           .menoglobenew{
+            height: 370px;
+    
+           }  
+           .iconenav4{
+            color: red;
+            display: none;
+            font-size: 20px;
+           } 
+           .serch{
+            width: 1580px;
+            height: 60px;
+            background-color: black;
+            color: white;
+            overflow: hidden;
+            display: none;
+          position: relative;
+     
+           }   
+           .bodynew{
+            background: rgba(21,30,45,0.7);
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            border: none;
+            box-shadow: none;
+            border-radius: 0;
+            display: block;
+            padding: 0;
+            overflow-y: none;
+        }
+        .serchinput{
+            margin-left: 600px;
+            width: 400px;
+            height: 40px;
+           background: none;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            position: relative;
+        }
+    .diviconnav5{
+        font-size: 20px;
+        margin-left: 600px;
+        margin-top: -35px;
+    }               
+    .newsearch{
+        display: block;
+    
+    }
+    .iconenav6{
+        color: red;
+    margin-top: -150px;
+        font-size: 20px;
+       margin-left: 1360px;
+    position: relative;
+    display: none;
+    cursor: pointer;
+    
+    }
+    ul{
+        list-style-type: none;
+    }
+    #neymar{
+      width: 100%;
+      height: 100%; 
+      overflow: hidden;
+    
+    }
+    .imgneymar{
+        width: 100%;
+        height: 100%;
+     z-index: 10;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+      overflow: hidden;
+    transition: all 600ms ease 0s; 
+    }
+    
+    .psuedo-image {
+    
+    
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 0;
+        filter: blur(50px);
+        
+        backface-visibility: hidden;
+        opacity: .35;
+    overflow: hidden;
+    width: 100%;
+    height: 414px;
+    
+    }
+    .te{
+        color: red;
+    margin-top: -200px;
+    font-size: 13px;
+    position: absolute;
+    }
+    .textneymar{
+    margin-top: -200px;
+        color: white;
+    
+    }
+    #neymar:hover img{
+        transform: scale(1.1);
+    }
+    #divneymar{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    #tms{
+    display: flex;
+    
+    }
+    .Resultsorginal{
+    
+        width: 100%;
+        height: 121px;
+        background: rgba(12,19,36,0.6);
+    margin-top: -200px;
+    
+    }
+    #Results1{
+        width: 40px;
+        height: 46px;
+        background-color: rgba(255, 0, 0, 0.596);
+        color: white;
+        border-radius: 5px;
+    
+    }
+    #Results{
+    display: flex;
+    overflow: hidden;
+    }
+    #Results2{
+        width: 40px;
+        height: 45px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+    .newneymar{
+        margin-top: 5%;
+        transition: none;
+    }
+    #Practiceimg{
+      width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s;
+    }
+    .cols{
+        margin-top: -5px;
+    }
+    .Practice{
+        width: 100%;
+        height: 400px;
+        font-family: sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    #textPractice{ 
+    
+        font-size: 17px;
+    }
+    .first{
+        color: red;
+        font-size: 12px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: -100px;
+    }
+    .Practice:hover img{
+        transform: scale(1.1);
+    }
+    #gd{
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+    }
+    .card1{
+    width: 300px;
+        height: 74.77px;
+        border-left: 5px solid #E8E8E8;
+        margin: 0 17px;
+        cursor: pointer; list-style-type: none;
+    }
+    .card1 li{
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;
+        font-size: 15px;
+    }
+    .card1 h6{
+        color:     #1abfce;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .card2{
+      width: 430px;
+        height: 80.77px;
+        border-left: 5px solid #E8E8E8;
+      margin-left: 390px;
+
+      list-style-type: none;
+      cursor: pointer;  margin-top: -70px;
+    }
+    .card2 li{
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;    font-size: 15px;  
+    }
+    .tf{
+        color: red;
+        font-weight: 700;
+        margin-left: 150px;
+        margin-top: -100px;
+        font-size: 11px;
+    }
+    .card3{
+    width: 300px;
+        height: 74.77px;
+        border-left: 5px solid #E8E8E8;
+        margin: 0 17px;
+      list-style-type: none;
+      margin-top: 40px;  
+      cursor: pointer;}
+    .card3 li{
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;   
+        font-size: 15px;
+    } 
+    .card4{
+      width: 430px;
+        height: 80.77px;
+        border-left: 5px solid #E8E8E8;
+        margin: 0 17px;
+      list-style-type: none;
+      margin-top: -70px;     cursor: pointer;  margin-left: 390px;
+    }
+    .card4 li{
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;   
+        font-size: 15px;
+    }
+    #mp{
+        width: 100%;
+        height:100;
+        transition: all 600ms ease 0s; 
+              cursor: pointer;
+    }
+    #mpdiv{
+    
+    height: 338.58px;
+    overflow: hidden;
+    }
+    .tf1{    color: red;
+        font-weight: 700;
+        font-size: 12px;
+
+    }
+    .mpdivor{
+    width: 100%;
+        height: 320px;
+        font-family: sans-serif;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right:30px;
+    }
+    .mpdivor h3{
+    overflow: hidden;
+    font-size: 17px;
+    }
+    .mpdivor:hover img{
+        transform: scale(1.1);
+    }
+    #Practiceimg2{
+    width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s ;
+    }
+    .Practice2{
+        width: 100%;
+        height: 400px; ;
+        padding-left: 10px;
+        overflow: hidden;
+        
+        cursor: pointer;
+    }
+    .Practice2 h6{
+        color: red;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .Practice2 h3{
+     
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;   
+    }
+    .Practice2:hover img{
+        transform: scale(1.1);
+    }
+    .Practiceimgdiv{
+        width: 100%;
+        overflow: hidden;
+    }
+    .Practice3{
+        width: 100%;
+        height:400px ;
+     padding-right: 10px;
+        overflow: hidden;
+   
+        cursor: pointer;
+    }
+    #Practiceimg3{
+        width: 100%;
+        height:100%;
+        transition: all 600ms ease 0s ;
+    }
+    .Practice3:hover img{
+       transform: scale(1.1);
+    }
+    .Practice3 h3{
+       
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    
+    #pt{
+      font-size: 12px;
+       display: none;
+        line-height: 1;
+    position: absolute;
+        top: 20px;
+        right: 15px;
+        color: #fff;
+        font-family: "alternate-gothic-no3",Helvetica,Arial,sans-serif;
+        letter-spacing: 0.6px;
+        white-space: nowrap;
+        text-transform: uppercase;
+        padding: 5px 13px 4px;
+        z-index: 2;
+        Box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+        border-radius: 3px;
+        background: #c9ad67;  
+    }
+    #parisimg{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s ; 
+    }
+    .paris{
+        width: 100%;
+        height:400px ;
+        padding-left: 10px;
+        overflow: hidden;
+        cursor: pointer;
+     
+    }
+    .paris h3{
+    
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    .paris:hover img{
+        transform: scale(1.1);
+    }
+    .pk{
+        width: 100%;
+        height:400.44px ;
+        overflow: hidden;
+        cursor: pointer;
+        padding-right: 30px;
+    }
+    .pk h6{
+        color: red;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #pkimg{
+        width: 100%;
+      height: 100%;
+        transition: all 600ms ease 0s ;
+    }
+    .neymar2 h6{
+        color: red;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .pk h3{
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    .Practiceimgdiv2{
+    width: 100%;
+    overflow: hidden;
+    }
+    .neymar2{
+        width: 100%;
+        height:400px ;
+        padding-left: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        
+    }
+    #neymarimg2{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s ;
+    }
+    .neymar2:hover img{
+    transform: scale(1.1);
+    }
+    .neymar2 h3{
+
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    .wn{
+        width: 100%;
+        height:400px ;
+        overflow: hidden;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+    #wnimg{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s    
+    }
+    .wn:hover img{
+        transform: scale(1.1);
+    }
+    .wn h6{
+        color: #1abfce;
+        font-size: 12px;
+        font-weight: 700;
+     
+     
+    }
+    .wn h3{
+   
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    .hl{
+        width: 100%;
+        height:400px ;
+        padding-left: 10px;
+        overflow: hidden;
+        cursor: pointer;  
+    }
+    #hlimg{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s    
+    }
+    .hl:hover img{
+        transform: scale(1.1);
+    }
+    .hl h6{
+        color: #0b46eb;
+        font-size: 12px;
+        font-weight: 700;
+      
+    }
+    
+    .hl h3{
+      
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    .jj{
+        width: 100%;
+        height:400px ;
+        overflow: hidden;
+        cursor: pointer;
+        padding-right: 10px;  
+    }
+    #jjimg{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s  
+    }
+    .jj:hover img{
+        transform: scale(1.1);
+    }
+.jj h6{
+    color: red;
+    font-weight: 700;
+    font-size: 12px;
+}
+    .jj h3{
+      
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+    }
+    .Flight{
+        overflow: hidden;
+        cursor: pointer;  
+        
+    }
+    #Flightimg{
+      width: 100%;
+        height: 100%;
+        transition: all 700ms ease 0s  
+    }
+    .row{
+        background-color: white;
+    }
+    .Flightor{
+     padding-left: 30px;
+     padding-right: 10px
+    }
+    .Flight:hover img{
+        transform: scale(1.1);
+    }
+    .tf2{
+        color: red;
+        font-weight: 700;
+        font-size: 15px;
+        position:absolute ;
+        margin-top: -5%;
+        margin-left: 25%;
+    }
+    .Flight h3{
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+     
+    }
+    .Practiceimgdiv3{
+    width: 358.5px;
+    height: 239.117px;
+        overflow: hidden;
+    }
+    .team{
+    
+    margin-top: 20px;
+        overflow: hidden;
+        cursor: pointer;  
+    }
+    #teamimg{
+        width: 100%;
+        height: 100%;
+        transition: all 700ms ease 0s  
+    }
+    .team:hover img{
+    transform: scale(1.1);
+    }
+    .team1{
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .team h3{
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #1a2434;  
+        margin-left: 400px;
+
+    }
+    .team h6{
+
+    }
+    .teams{
+        display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    }
+    
+    #li4{
+        padding-left: 15px;
+        cursor: pointer;
+    }
+    #li3{
+        cursor: pointer;
+        padding-left: 15px;
+    }
+    #li2{
+        cursor: pointer;
+        padding-left: 15px;
+    }
+    #li1{
+        cursor: pointer;
+        padding-left: 15px;
+    }
+    .divul{
+    margin-left: 50%;
+    }
+    .bs{
+        width: 100;
+        height: 1831px;
+        background-color: transparent;
+    }
+    .monaco{
+        width: 100%;
+    padding-top: 100px;
+    
+    }
+    #monacoimg{
+        transition: all 700ms ease 0s;
+        width: 100%;
+        height: 100%;
+    }
+    .monaco:hover img{
+        transform: scale(1.1);
+    }
+    .monacodivimg{
+        width: 100%;
+     padding-left: 10px;
+     padding-right: 10px;
+        overflow: hidden;
+    }
+    .tf3{
+        color: red;
+        font-weight: 700;
+        font-size: 13px;
+    
+    }
+    .monaco h3{
+        font-size: 22px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: white;  
+    }
+    .bs h2{
+        color: white;
+       position: absolute;
+    }
+    .hl2{
+        width: 100%;
+        padding-left: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        padding-right: 30px;  
+    }
+    #hl2img{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s      
+    }
+    .endlist{
+        margin-top: 4%;
+        margin-left: 0.5%;
+    }
+    .hl2:hover img{
+        transform: scale(1.1);
+    }
+    .hl2 h6{
+        color: #0b46eb;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 150px;
+        margin-top: -100px;
+    }
+    .hl2 h3{
+        margin-left: 160px;
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .copy2{
+        overflow: hidden;
+        cursor: pointer;  
+        width: 100%;
+        
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+    #copy2img{
+        width:100%;
+        height: 100%;
+        transition: all 600ms ease 0s  
+    
+    }
+    .copy2:hover img{
+        transform: scale(1.1);
+    }
+    .copy2 h3{
+        margin-left: 160px;
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: white;
+    }
+    #copy3{
+        width: 100%;
+        height: 100%;
+        transition: all 600ms ease 0s 
+         
+    }
+    
+    
+    .copy3{
+    padding-top: 50px;
+        width: 100%;
+        padding-left: 30px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;}
+        #copy3img{
+        height: 100%;
+            width: 100%;
+            transition: all 600ms ease 0s  
+        }
+        .copy3:hover img{
+            transform: scale(1.1);
+        }
+        .copy3 h3{
+            margin-left: 160px;
+            font-size: 15px;
+            line-height: 1.4;
+            font-weight: bold;
+            color: white;
+        }
+        .hl3{
+      
+            width: 100%;
+            padding-left: 30px;
+            overflow: hidden;
+            cursor: pointer;  
+            padding-right: 30px;
+            padding-top: 50px;
+        }
+        #hl3img{
+       width: 100%;
+       height: 100%;
+            transition: all 600ms ease 0s   
+        }
+        .hl3:hover img{ 
+            transform: scale(1.1)
+        }
+        .hl3 h6{
+            color: #0b46eb;
+            font-size: 12px;
+            font-weight: 700;
+            margin-left: 150px;
+            margin-top: -100px;
+        }
+        .hl3 h3{
+            margin-left: 160px;
+            font-size: 15px;
+            line-height: 1.4;
+            font-weight: bold;
+            color: white;
+        }
+        #BH{
+            margin: 0 auto;
+           margin-top: 40px;
+            
+            width: 110.5px;
+            height: 45px;
+            color: white;
+            background-color: #1a2434;
+        cursor: pointer;
+        transition: all 600ms ease 0s;
+        }
+    #pbh{
+        text-align: center;
+        justify-content: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    }
+    
+    .fire{
+        width: 100%;
+        height: 410px;
+        background-image: url(../images/dsc04128b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+     opacity: .4;
+     margin: 0 auto;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    #P1{
+        color: white;
+        font-size: 20px;
+    text-align: center;
+    }
+    #p3{
+      text-align: center;
+    margin-left: 50px;
+    margin-top: -20px;}
+    #orginalul{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+       
+        font-weight: 700;
+    }
+    #orginalul li{
+        font-size: 15px;
+    }
+    .ls{
+        width: 1590px;
+        height: 550.48px;
+    }
+    .Results1{
+        width: 327.5px;
+        height: 340.5px;
+        margin-left: 60px;
+      
+        background: #eaeaea;
+    }
+    .Results1 img{
+        width: 55px;
+        height: 55px;
+    
+    }
+    .Resultsimg1{
+    margin-top: 70px;
+    margin-left: 100px;
+    }
+    .Resultsimg2{
+        margin-top: 70px;
+        margin-left: -10px;
+        }
+        .Resultsp1{
+         margin-left:70px ;  
+    font-weight: 700;
+        }
+        .Resultsp2{
+            margin-left:160px ;  
+            font-weight: 700;
+            margin-top: -45px;
+        }
+    .Results3{
+        width: 40px;
+    height: 45px;
+    background-color: #8a8b8b;
+    color: white;
+    border-radius: 5px;
+    }
+    .Results2{
+        width: 40px;
+    height: 45px;
+    background-color: #8a8b8b;
+    color: white;
+    border-radius: 5px;
+    }
+ }
