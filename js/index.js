@@ -8,6 +8,7 @@ const icon4 = document.querySelectorAll("i")
 const serch =document.querySelector(".serch")
 const body =document.querySelector("body")
 const ney =document.querySelector(".imgneymar")
+const icon5 =document.querySelector(".diviconnav5") 
 
 icon.addEventListener("click", function(){
 nav[6].classList.toggle("menoopen");
@@ -19,27 +20,27 @@ nav[5].addEventListener("click" ,function(){
     meno.classList.add("menoglobenew")
        
         nav[5].style.display ="none";
-        nav[6].style.display ="block";
+        nav[8].style.display ="block";
    
 
 }) ;
-nav[6].addEventListener("click" ,function(){
+nav[8].addEventListener("click" ,function(){
     meno.classList.remove("menoglobenew")
        
-    nav[6].style.display ="none";
+    nav[8].style.display ="none";
     nav[5].style.display ="block";
    
 
 }) ;
-nav[15].addEventListener("click" ,function(){
+nav[3].addEventListener("click" ,function(){
 serch.classList.add("newsearch")
-        nav[15].style.display ="none";
-        nav[11].style.display ="block";
+        nav[3].style.display ="none";
+        nav[14].style.display ="block";
       ney.classList.add("newneymar")
 });
-nav[11].addEventListener("click" ,function(){
+nav[14].addEventListener("click" ,function(){
     serch.classList.remove("newsearch")
-            nav[11].style.display ="none";
-            nav[15].style.display ="block";
+            nav[14].style.display ="none";
+            nav[3].style.display ="block";
    ney.classList.remove("newneymar")
     }); 
