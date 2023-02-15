@@ -18,8 +18,7 @@ body{
   }
     #nav1{
     background: #1a2434;
-    padding-right: px;
-    padding-left: px;
+
     position: relative;
     width: 100%;
     height: 33px;
@@ -2369,23 +2368,23 @@ border-radius: 5px;
         font-weight: 700;
         font-size: 15px;
         position:absolute ;
-        margin-top: -5%;
-        margin-left: 25%;
+   
     }
     .Flight h3{
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.4;
         font-weight: bold;
         color: #1a2434;  
-     
+  
     }
     .Practiceimgdiv3{
     width: 358.5px;
     height: 239.117px;
         overflow: hidden;
+        
     }
     .team{
-    
+    height: 240px;
     margin-top: 20px;
         overflow: hidden;
         cursor: pointer;  
@@ -2403,15 +2402,16 @@ border-radius: 5px;
         padding-right: 10px;
     }
     .team h3{
-        font-size: 15px;
+        font-size: 20px;
         line-height: 1.4;
         font-weight: bold;
         color: #1a2434;  
         margin-left: 400px;
-
+margin-top: -160px;
     }
     .team h6{
-
+margin-left: 400px;
+margin-top: -120px;
     }
     .teams{
         display: flex;
@@ -2447,7 +2447,12 @@ border-radius: 5px;
     .monaco{
         width: 100%;
     padding-top: 100px;
-    
+    height: 226px;
+    }
+    .Practiceimgdiv4{
+        width: 340px;
+height: 226px;
+overflow: hidden;
     }
     #monacoimg{
         transition: all 700ms ease 0s;
@@ -2458,7 +2463,8 @@ border-radius: 5px;
         transform: scale(1.1);
     }
     .monacodivimg{
-        width: 100%;
+width: 340px;
+height: 226px;
      padding-left: 10px;
      padding-right: 10px;
         overflow: hidden;
@@ -2467,17 +2473,20 @@ border-radius: 5px;
         color: red;
         font-weight: 700;
         font-size: 13px;
-    
+    margin-top: -150px;
+    margin-left: 400px;
     }
     .monaco h3{
         font-size: 22px;
         line-height: 1.4;
         font-weight: bold;
         color: white;  
+        margin-left: 380px;
     }
     .bs h2{
         color: white;
        position: absolute;
+    
     }
     .hl2{
         width: 100%;
@@ -2485,6 +2494,7 @@ border-radius: 5px;
         overflow: hidden;
         cursor: pointer;
         padding-right: 30px;  
+        margin-top: 100px;
     }
     #hl2img{
         width: 100%;
@@ -2494,6 +2504,12 @@ border-radius: 5px;
     .endlist{
         margin-top: 4%;
         margin-left: 0.5%;
+        display: flex;
+    }
+    .endlist2{
+        margin-top: 4%;
+        margin-left: 0.5%;
+        display: flex;
     }
     .hl2:hover img{
         transform: scale(1.1);
@@ -2502,11 +2518,11 @@ border-radius: 5px;
         color: #0b46eb;
         font-size: 12px;
         font-weight: 700;
-        margin-left: 150px;
-        margin-top: -100px;
+
     }
     .hl2 h3{
-        margin-left: 160px;
+      
+        
         font-size: 15px;
         line-height: 1.4;
         font-weight: bold;
@@ -2520,7 +2536,7 @@ border-radius: 5px;
         
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 50px;
+        padding-top: 100px;
     }
     #copy2img{
         width:100%;
@@ -2532,7 +2548,7 @@ border-radius: 5px;
         transform: scale(1.1);
     }
     .copy2 h3{
-        margin-left: 160px;
+      
         font-size: 15px;
         line-height: 1.4;
         font-weight: bold;
@@ -2589,11 +2605,10 @@ border-radius: 5px;
             color: #0b46eb;
             font-size: 12px;
             font-weight: 700;
-            margin-left: 150px;
-            margin-top: -100px;
+  
         }
         .hl3 h3{
-            margin-left: 160px;
+   
             font-size: 15px;
             line-height: 1.4;
             font-weight: bold;
