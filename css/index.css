@@ -4614,6 +4614,7 @@ display: flex;
     margin-top: -150px;
         font-size: 20px;
  
+    position: absolute;
     display: none;
     cursor: pointer;
     
