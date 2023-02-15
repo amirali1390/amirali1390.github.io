@@ -20,14 +20,14 @@ nav[5].addEventListener("click" ,function(){
     meno.classList.add("menoglobenew")
        
         nav[5].style.display ="none";
-        nav[8].style.display ="block";
+        nav[6].style.display ="block";
    
 
 }) ;
-nav[8].addEventListener("click" ,function(){
+nav[6].addEventListener("click" ,function(){
     meno.classList.remove("menoglobenew")
        
-    nav[8].style.display ="none";
+    nav[6].style.display ="none";
     nav[5].style.display ="block";
    
 
