@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     outline: 0;
+ 
 }
 
 @media all and (max-width:767px){
@@ -6803,5 +6804,8 @@ height: 226px;
     color: white;
     border-radius: 5px;
     margin-left: 180px;
+    }
+    .Results1 span{
+        color: red;
     } 
  }
