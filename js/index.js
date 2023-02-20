@@ -11,7 +11,7 @@ const ney =document.querySelector(".imgneymar")
 const icon5 =document.querySelector(".diviconnav5") 
 
 icon.addEventListener("click", function(){
-nav[6].classList.toggle("menoopen");
+nav[10].classList.toggle("menoopen");
 icon1[0].classList.toggle("bar1new");
 icon2[1].classList.toggle("bar2new");
 icon2[2].classList.toggle ("bar3new");
@@ -35,12 +35,12 @@ nav[6].addEventListener("click" ,function(){
 nav[3].addEventListener("click" ,function(){
 serch.classList.add("newsearch")
         nav[3].style.display ="none";
-        nav[14].style.display ="block";
+        nav[15].style.display ="block";
       ney.classList.add("newneymar")
 });
-nav[14].addEventListener("click" ,function(){
+nav[15].addEventListener("click" ,function(){
     serch.classList.remove("newsearch")
-            nav[14].style.display ="none";
+            nav[15].style.display ="none";
             nav[3].style.display ="block";
    ney.classList.remove("newneymar")
     }); 
