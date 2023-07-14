@@ -1,0 +1,91 @@
+.menu{
+    width: 80%;
+    height: 100px;
+border: 2px solid black;
+margin: 0 auto;
+background-color: white;
+border-radius: 20px;
+margin-top: 20px;
+display: flex;
+}
+
+a { 
+    text-decoration:none!important;
+    color:black !important; 
+   
+}
+li{
+    list-style-type: none;
+}
+.ulmenu{
+
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.ulmenu li{
+    margin-right: 60px;
+}
+
+.limenu1:hover{
+
+border-bottom: 2px solid rgb(17, 216, 216);
+}
+.limenu2{
+    width: 51.3167px;
+height: 30px;
+ 
+}
+.limenu2:hover{
+
+    border-bottom: 2px solid rgb(17, 216, 216);
+    }
+    .limenu3:hover{
+       
+        border-bottom: 2px solid rgb(17, 216, 216);
+        }
+        .limenu4:hover{
+           
+            border-bottom: 2px solid rgb(17, 216, 216);
+            }
+            .limenu5:hover{
+                
+                border-bottom: 2px solid rgb(17, 216, 216);
+                }
+#ullimenu2{
+    width: 100px;
+    height: 0px;
+box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+overflow: hidden;
+margin-top: 50px;
+margin-left: -30%;   transition: all 300ms ease 0s;
+font-size: 20px;
+font-weight: 700;
+}
+#ullimenu2 li{
+margin: 0 auto;
+}
+.limenu2:hover #ullimenu2{
+   
+    height: 230px;
+}
+.limenu4{
+
+ height: 30px;
+   }
+#ullimenu4{
+    width:100px ;
+height: 0;
+box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+overflow: hidden;
+margin-top: 50px;
+margin-left: -10%;   transition: all 300ms ease 0s;
+font-size: 20px;
+}
+#ullimenu4 li{
+
+ }
+ .limenu4:hover #ullimenu4{
+    height: 200px;
+}

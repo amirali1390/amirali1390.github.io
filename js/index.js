@@ -1,46 +1,25 @@
-const nav = document.querySelectorAll("div")
-const icon = document.querySelector(".header__sidebar-toggle");
-const icon1 = document.querySelectorAll("span");
-const icon2 = document.querySelectorAll("span");
-const icon3 = document.querySelectorAll("span");
-const meno  = document.querySelector(".menoglobe")
-const icon4 = document.querySelectorAll("i")
-const serch =document.querySelector(".serch")
-const body =document.querySelector("body")
-const ney =document.querySelector(".imgneymar")
-const icon5 =document.querySelector(".diviconnav5") 
+const ico =document.querySelector(".iconmenu")
+const menu =document.querySelector(".menu")
+const li1=document.querySelector(".limenu2")
+const li2=document.querySelector(".limenu4")
+const menu1=document.querySelector(".ullimenu2")
+const menu2=document.querySelector(".ullimenu4")
 
-icon.addEventListener("click", function(){
-nav[10].classList.toggle("menoopen");
-icon1[0].classList.toggle("bar1new");
-icon2[1].classList.toggle("bar2new");
-icon2[2].classList.toggle ("bar3new");
-});
-nav[5].addEventListener("click" ,function(){
-    meno.classList.add("menoglobenew")
-       
-        nav[5].style.display ="none";
-        nav[6].style.display ="block";
-   
 
-}) ;
-nav[6].addEventListener("click" ,function(){
-    meno.classList.remove("menoglobenew")
-       
-    nav[6].style.display ="none";
-    nav[5].style.display ="block";
-   
 
-}) ;
-nav[3].addEventListener("click" ,function(){
-serch.classList.add("newsearch")
-        nav[3].style.display ="none";
-        nav[15].style.display ="block";
-      ney.classList.add("newneymar")
-});
-nav[15].addEventListener("click" ,function(){
-    serch.classList.remove("newsearch")
-            nav[15].style.display ="none";
-            nav[3].style.display ="block";
-   ney.classList.remove("newneymar")
-    }); 
+ico.addEventListener("click", function(){
+    menu .classList.toggle("newmenu");
+}
+);
+
+
+li1.addEventListener("click", function(){
+
+menu1.classList.toggle("limenu")
+}
+);
+li2.addEventListener("click", function(){
+
+menu2.classList.toggle("limenu1")
+}
+);
