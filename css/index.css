@@ -49,13 +49,16 @@ color: white;
  font-weight: bold;
 
 }
-
+.limenu3{
+    padding-top: 30px;
+}
 
 .limenu2{
   background-image:url(../../Untitled.png);
-    height: 22px;
+
     text-align: right;
-    display: initial;
+
+    padding-top: 30px;
 }
 
 .ullimenu2{
@@ -79,7 +82,7 @@ margin-right: 55px;
     height: 200px;
 }
 .limenu4{
- 
+    padding-top: 30px;
  
 text-align: right;
 color: white;
@@ -113,6 +116,7 @@ color: white;
     }
     .limenu1{
         display: block;
+        padding-top: 30px;
     }
 .iconmenu{
 font-size: 40px;
@@ -132,6 +136,9 @@ position: absolute;
 margin:0 auto;  
 background-color: white;
 
+}
+.limenu5{
+    padding-top: 30px;
 }
 .divpmenu{
     position: absolute;
