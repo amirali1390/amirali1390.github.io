@@ -960,4 +960,17 @@ text-align: center;
     color: white;
     text-align: center;
     }  
+    .img2{
+   position: absolute;
+   width: 73.1px;
+margin-right: 75%;
+   height: 96px;
+   border-radius:7px;
+    }
+    .img1{
+        position: absolute;
+        width: 73.1px;
+        height: 96px;
+        border-radius:7px;
+         }
  }
