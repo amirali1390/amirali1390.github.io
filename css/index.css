@@ -1,9 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    outline: 0;
-    border: 0;
-}
+
 body{
     background-image: url(../images/Default\ WhatsApp\ background\ for\ people\ who\ lost\ it_\ Requested\ by\ u_Marvin_der_kuhle.jpeg);
 }
@@ -1174,9 +1169,13 @@ height: 50px;
                 border-radius:7px;
             }
             .imghome {
-                margin-left: 13%;
-                height: 150px;
-                margin-right: 17%;
-                border-radius: 5px;
+                width: 80%;
+                height: 130px;
+        
+            margin: 0 auto;
+            
+            border-radius: 20px;
+            
+            display: flex;
             }
     }
