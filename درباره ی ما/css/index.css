@@ -3,6 +3,7 @@
     margin: 0;
     outline: 0;
     border: 0;
+
 }
 @font-face {
     font-family: 'farsi';
@@ -160,5 +161,780 @@ font-size: 15px;
 font-weight: bold;
 
 }
+iframe{
+    width: 100%;
+    height: 300px;
+    margin-bottom: -6px;
+  
+}  
 }
+body{
+    height: 100%;
+}
+@media all and (min-width:576px) and (max-width:767px){
+    .menu{
+        width: 100%;
+        height: 70px;
+       
+    background: #73818d;;
+    display: flex;
+    
+    }
+    
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    li{
+        list-style-type: none;
+    }
+    .newmenu{
+        height: 100%; 
+    
+    }
+    .ulmenu{
+    width: 100%;
+    height: 100%;
+        text-align:right ;
+    overflow: hidden;
+        font-size:17px;
+    padding-top: 50px;
+    color: white;
+    }
+    .ulmenu li{
+        margin-right: 60px;
+     color:white;
+     font-weight: bold;
+    
+    }
+    .limenu3{
+        padding-top: 30px;
+    }
+    
+    .limenu2{
+      background-image:url(../../Untitled.png);
+    
+        text-align: right;
+    
+        padding-top: 30px;
+    }
+    
+    .ullimenu2{
+    
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 10px;
+     display: none;
+    font-size:17px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: 2px solid green;
+    display: none;
+    margin-right: 55px;
+    }
+    #ullimenu2 li{
+      margin-right: 20px; 
+    }
+    .limenu2new{
+       
+        height: 200px;
+    }
+    .limenu4{
+        padding-top: 30px;
+     
+    text-align: right;
+    color: white;
+       }.limenu{
+     display: none;
+    }
+    .ullimenu4{
+        
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 10px;
+     
+    font-size:17px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: 2px solid green;
+    display: none;
+    margin-right: 55px;
+    }
+    #ullimenu4 li{
+    margin-left: 30%;
+     }
+     .limenu4new{
+        height: 150px;
+    }
+    .limenu4 a{
+    color: white;
+    }
+    .limenu2 a{
+        color: white;
+        }
+        .limenu1{
+            display: block;
+            padding-top: 30px;
+        }
+    .iconmenu{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    }
+    .pmenu{
+        text-align: center;
+        color: red;
+        width: 250px;
+      font-weight: 900;
+        height: 30px;
+     border: 2px solid black;
+     border-radius: 50%;  
+    margin:0 auto;  
+    background-color: white;
+    
+    }
+    .limenu5{
+        padding-top: 30px;
+    }
+    .divpmenu{
+        position: absolute;
+        margin-right: 52px;
+    }
+    .kadr{
+        margin-left: 10%;
+        border: 4px solid green;
+        margin-right: 10%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .kadr p{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+        margin-bottom: -6px;
+    }    
+}
+@media all and (min-width:768px) and (max-width:991px){
+    .menu{
+        width: 100%;
+        height: 70px;
+       
+    background: #73818d;;
+    display: flex;
+    
+    }
+    
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    li{
+        list-style-type: none;
+    }
+    .newmenu{
+        height: 100%; 
+    
+    }
+    .ulmenu{
+    width: 100%;
+    height: 100%;
+        text-align:right ;
+    overflow: hidden;
+        font-size:17px;
+    padding-top: 50px;
+    color: white;
+    }
+    .ulmenu li{
+        margin-right: 60px;
+     color:white;
+     font-weight: bold;
+    
+    }
+    .limenu3{
+        padding-top: 30px;
+    }
+    
+    .limenu2{
+      background-image:url(../../Untitled.png);
+    
+        text-align: right;
+    
+        padding-top: 30px;
+    }
+    
+    .ullimenu2{
+    
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 10px;
+     display: none;
+    font-size:17px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: 2px solid green;
+    display: none;
+    margin-right: 55px;
+    }
+    #ullimenu2 li{
+      margin-right: 20px; 
+    }
+    .limenu2new{
+       
+        height: 200px;
+    }
+    .limenu4{
+        padding-top: 30px;
+     
+    text-align: right;
+    color: white;
+       }.limenu{
+     display: none;
+    }
+    .ullimenu4{
+        
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 10px;
+     
+    font-size:17px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: 2px solid green;
+    display: none;
+    margin-right: 55px;
+    }
+    #ullimenu4 li{
+    margin-left: 30%;
+     }
+     .limenu4new{
+        height: 150px;
+    }
+    .limenu4 a{
+    color: white;
+    }
+    .limenu2 a{
+        color: white;
+        }
+        .limenu1{
+            display: block;
+            padding-top: 30px;
+        }
+    .iconmenu{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    }
+    .pmenu{
+        text-align: center;
+        color: red;
+        width: 250px;
+      font-weight: 900;
+        height: 30px;
+     border: 2px solid black;
+     border-radius: 50%;  
+    margin:0 auto;  
+    background-color: white;
+    
+    }
+    .limenu5{
+        padding-top: 30px;
+    }
+    .divpmenu{
+        position: absolute;
+        margin-right: 52px;
+    }
+    .kadr{
+        margin-left: 10%;
+        border: 4px solid green;
+        margin-right: 10%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .kadr p{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+        margin-bottom: -6px;
+    }      
+}
+@media all and (min-width:992px) and (max-width:1199px){
+    .menu{
+        width: 100%;
+        height: 70px;
+       
+    background: #73818d;;
+    display: flex;
+    
+    }
+    
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    li{
+        list-style-type: none;
+    }
+    .newmenu{
+        height: 100%; 
+    
+    }
+    .ulmenu{
+    width: 100%;
+    height: 100%;
+        text-align:right ;
+    overflow: hidden;
+        font-size:17px;
+    padding-top: 50px;
+    color: white;
+    }
+    .ulmenu li{
+        margin-right: 60px;
+     color:white;
+     font-weight: bold;
+    
+    }
+    .limenu3{
+        padding-top: 30px;
+    }
+    
+    .limenu2{
+      background-image:url(../../Untitled.png);
+    
+        text-align: right;
+    
+        padding-top: 30px;
+    }
+    
+    .ullimenu2{
+    
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 10px;
+     display: none;
+    font-size:17px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: 2px solid green;
+    display: none;
+    margin-right: 55px;
+    }
+    #ullimenu2 li{
+      margin-right: 20px; 
+    }
+    .limenu2new{
+       
+        height: 200px;
+    }
+    .limenu4{
+        padding-top: 30px;
+     
+    text-align: right;
+    color: white;
+       }.limenu{
+     display: none;
+    }
+    .ullimenu4{
+        
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 10px;
+     
+    font-size:17px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: 2px solid green;
+    display: none;
+    margin-right: 55px;
+    }
+    #ullimenu4 li{
+    margin-left: 30%;
+     }
+     .limenu4new{
+        height: 150px;
+    }
+    .limenu4 a{
+    color: white;
+    }
+    .limenu2 a{
+        color: white;
+        }
+        .limenu1{
+            display: block;
+            padding-top: 30px;
+        }
+    .iconmenu{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    }
+    .pmenu{
+        text-align: center;
+        color: red;
+        width: 300px;
+      font-weight: 900;
+        height: 30px;
+     border: 2px solid black;
+     border-radius: 50%;  
+    margin:0 auto;  
+    background-color: white;
+    
+    }
+    .limenu5{
+        padding-top: 30px;
+    }
+    .divpmenu{
+        position: absolute;
+        margin-right: 52px;
+    }
+    .kadr{
+        margin-left: 10%;
+        border: 4px solid green;
+        margin-right: 10%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .kadr p{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+        margin-bottom: -6px;
+    }   
+    p{
+        font-size: 18px;
+    }
+    li{
+font-size: 18px;
+    }
+}
+@media all and (min-width:1200px) and (max-width:1399px){
+    .menu{
+        width: 80%;
+        height: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    }
+    body{
+        background-image: url(../images/Default\ WhatsApp\ background\ for\ people\ who\ lost\ it_\ Requested\ by\ u_Marvin_der_kuhle.jpeg);
+    }
+    a { 
+        text-decoration:none!important;
+        color:black !important; 
+       
+    }
+    li{
+        list-style-type: none;
+    }
+    .ulmenu{
+    
+        display: flex;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .ulmenu li{
+        margin-right: 60px;
+    }
+    
+    .limenu1:hover{
+    
+    border-bottom: 2px solid rgb(17, 216, 216);
+    }
+    .limenu2{
+        width: 51.3167px;
+    height: 30px;
+     
+    }
+    .limenu2:hover{
+    
+        border-bottom: 2px solid rgb(17, 216, 216);
+        }
+        .limenu3:hover{
+           
+            border-bottom: 2px solid rgb(17, 216, 216);
+            }
+            .limenu4:hover{
+               
+                border-bottom: 2px solid rgb(17, 216, 216);
+                }
+                .limenu5:hover{
+                    
+                    border-bottom: 2px solid rgb(17, 216, 216);
+                    }
+    .ullimenu2{
+        width: 100px;
+        height: 0px;
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -30%;   transition: all 300ms ease 0s;
+    font-size: 20px;
+    font-weight: 700;
+    
+    }
+    .ullimenu2 li{
+    margin: 0 auto;
+    }
+    .limenu2:hover #ullimenu2{
+       
+        height: 230px;
+    }
+    .limenu4{
+    
+     height: 30px;
+       }
+    .ullimenu4{
+  background-color: white;
+    height: 0;
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -10%;   transition: all 300ms ease 0s;
+    font-size: 20px;
+    position: absolute;
+    }
+   
+   
 
+     .limenu4:hover .ullimenu4{
+        height: 200px;
+    }
+    .iconmenu{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    }
+    .pmenu{
+        text-align: center;
+        color: red;
+        width: 300px;
+      font-weight: 900;
+        height: 30px;
+     border: 2px solid black;
+     border-radius: 50%;  
+    margin:0 auto;  
+    background-color: white;
+    display: none;
+    }
+    .divpmenu{
+        position: absolute;
+        margin-right: 52px;
+    display: none;
+    }
+    .kadr{
+        margin-left: 10%;
+        border: 4px solid green;
+        margin-right: 10%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .kadr p{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+        margin-bottom: -6px;
+    }   
+    .img55{
+        position: absolute;
+        width: 73.1px;
+        height: 96px;
+        border-radius:7px;
+         }
+         .img56{
+            position: absolute;
+            width: 73.1px;
+         margin-right: 75%;
+            height: 96px;
+            border-radius:7px;
+         }
+}
+@media all and (min-width:1400px) and (max-width:10000000000000000000000000000000px){
+    .menu{
+        width: 80%;
+        height: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    }
+    body{
+        background-image: url(../images/Default\ WhatsApp\ background\ for\ people\ who\ lost\ it_\ Requested\ by\ u_Marvin_der_kuhle.jpeg);
+    }
+    a { 
+        text-decoration:none!important;
+        color:black !important; 
+       
+    }
+    li{
+        list-style-type: none;
+    }
+    .ulmenu{
+    
+        display: flex;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .ulmenu li{
+        margin-right: 60px;
+    }
+    
+    .limenu1:hover{
+    
+    border-bottom: 2px solid rgb(17, 216, 216);
+    }
+    .limenu2{
+        width: 51.3167px;
+    height: 30px;
+     
+    }
+    .limenu2:hover{
+    
+        border-bottom: 2px solid rgb(17, 216, 216);
+        }
+        .limenu3:hover{
+           
+            border-bottom: 2px solid rgb(17, 216, 216);
+            }
+            .limenu4:hover{
+               
+                border-bottom: 2px solid rgb(17, 216, 216);
+                }
+                .limenu5:hover{
+                    
+                    border-bottom: 2px solid rgb(17, 216, 216);
+                    }
+    .ullimenu2{
+        width: 100px;
+        height: 0px;
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -30%;   transition: all 300ms ease 0s;
+    font-size: 20px;
+    font-weight: 700;
+    
+    }
+    .ullimenu2 li{
+    margin: 0 auto;
+    }
+    .limenu2:hover #ullimenu2{
+       
+        height: 230px;
+    }
+    .limenu4{
+    
+     height: 30px;
+       }
+    .ullimenu4{
+  background-color: white;
+    height: 0;
+    box-shadow: 0 2px 12px  rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -10%;   transition: all 300ms ease 0s;
+    font-size: 20px;
+    position: absolute;
+    }
+   
+   
+
+     .limenu4:hover .ullimenu4{
+        height: 200px;
+    }
+    .iconmenu{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    }
+    .pmenu{
+        text-align: center;
+        color: red;
+        width: 300px;
+      font-weight: 900;
+        height: 30px;
+     border: 2px solid black;
+     border-radius: 50%;  
+    margin:0 auto;  
+    background-color: white;
+    display: none;
+    }
+    .divpmenu{
+        position: absolute;
+        margin-right: 52px;
+    display: none;
+    }
+    .kadr{
+        margin-left: 10%;
+        border: 4px solid green;
+        margin-right: 10%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .kadr p{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+        margin-bottom: -6px;
+    }   
+    .img55{
+        position: absolute;
+        width: 73.1px;
+        height: 96px;
+        border-radius:7px;
+         }
+         .img56{
+            position: absolute;
+            width: 73.1px;
+         margin-right: 75%;
+            height: 96px;
+            border-radius:7px;
+         }  
+}
