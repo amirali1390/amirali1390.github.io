@@ -131,14 +131,14 @@ position: absolute;
 .pmenu{
     text-align: center;
     color: red;
-    width: 250px;
+    width: 200px;
   font-weight: 900;
     height: 30px;
  border: 2px solid black;
  border-radius: 50%;  
 margin:0 auto;  
 background-color: white;
-
+font-size: 13px
 }
 .limenu5{
     padding-top: 30px;
@@ -167,6 +167,20 @@ iframe{
     margin-bottom: -6px;
   
 }  
+.img55{
+    position: absolute;
+    width: 73.1px;
+    height: 70px;
+    border-radius:7px;
+    margin-right: 67%;
+     }
+     .img56{
+        position: absolute;
+        width: 73.1px;
+     margin-right: 82%;
+        height: 70px;
+        border-radius:7px;
+     }
 }
 body{
     height: 100%;
@@ -320,7 +334,21 @@ body{
         width: 100%;
         height: 400px;
         margin-bottom: -6px;
-    }    
+    }   
+    .img55{
+        position: absolute;
+        width: 73.1px;
+        height: 70px;
+        border-radius:7px;
+        margin-right: 80%;
+         }
+         .img56{
+            position: absolute;
+            width: 73.1px;
+         margin-right: 90%;
+            height: 70px;
+            border-radius:7px;
+         }
 }
 @media all and (min-width:768px) and (max-width:991px){
     .menu{
@@ -471,7 +499,21 @@ body{
         width: 100%;
         height: 400px;
         margin-bottom: -6px;
-    }      
+    }   
+    .img55{
+        position: absolute;
+        width: 73.1px;
+        height: 70px;
+        border-radius:7px;
+        margin-right: 80%;
+         }
+         .img56{
+            position: absolute;
+            width: 73.1px;
+         margin-right: 90%;
+            height: 70px;
+            border-radius:7px;
+         }
 }
 @media all and (min-width:992px) and (max-width:1199px){
     .menu{
@@ -629,6 +671,33 @@ body{
     li{
 font-size: 18px;
     }
+    .img55{
+        position: absolute;
+        width: 73.1px;
+        height: 96px;
+        border-radius:7px;
+         }
+         .img56{
+            position: absolute;
+            width: 73.1px;
+         margin-right: 75%;
+            height: 96px;
+            border-radius:7px;
+         }  
+         .img55{
+            position: absolute;
+            width: 73.1px;
+            height: 70px;
+            border-radius:7px;
+            margin-right: 80%;
+             }
+             .img56{
+                position: absolute;
+                width: 73.1px;
+             margin-right: 90%;
+                height: 70px;
+                border-radius:7px;
+             }
 }
 @media all and (min-width:1200px) and (max-width:1399px){
     .menu{
