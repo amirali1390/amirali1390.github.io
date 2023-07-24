@@ -16,7 +16,7 @@ body{
     width: 100%;
     height: 70px;
    
-background: #73818d;;
+    background: #062af5;;
 display: flex;
 
 }
@@ -204,7 +204,7 @@ height: 50px;
         width: 100%;
         height: 70px;
        
-    background: #73818d;;
+        background: #062af5;;
     display: flex;
     
     }
@@ -393,7 +393,7 @@ height: 50px;
         width: 100%;
         height: 70px;
        
-    background: #73818d;;
+        background: #062af5;;
     display: flex;
     
     }
@@ -588,7 +588,7 @@ height: 50px;
             width: 100%;
             height: 70px;
            
-        background: #73818d;;
+            background: #062af5;;
         display: flex;
         
         }
@@ -972,10 +972,14 @@ height: 50px;
                 border-radius:7px;
              }
              .imghome {
-                margin-left: 13%;
-                height: 150px;
-                margin-right: 13%;
-                border-radius: 5px;
+                width: 80%;
+                height: 130px;
+        
+            margin: 0 auto;
+            
+            border-radius: 20px;
+            
+            display: flex;
             }
     }
     @media all and (min-width:1400px) and (max-width:10000000000000000000000000000000px){
