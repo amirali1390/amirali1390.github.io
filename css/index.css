@@ -6,7 +6,8 @@
  
  }
  body {
-    overflow-x: hidden !important;
+    overflow-x: hidden ;
+    overflow-y: hidden;
     }
     iframe{
  margin-top: 160%;
