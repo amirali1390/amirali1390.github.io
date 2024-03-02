@@ -5,30 +5,29 @@
     border: 0;
  
  }
-
+      body {
+    overflow-x: hidden ;
+  width: 100%;
+    }
     iframe{
  margin-top: 160%;
  border: 0;
  position: absolute;
     }
  @media all  and (max-width:575px) {
-      body {
-    overflow-x: hidden ;
-  width: 100%;
-    }
+
     iframe{
          margin-top: 107%;
          border: 0;
          position: absolute;
             }
      .bg{
-         width: 107%;
+         width: 103%;
          height: 110%;
-         position: absolute;
+         position: fixed;
          min-height: 100%;
          min-height: 100%;
-    margin-right: 4px;
-      overflow: hidden;
+
       
        }
           
