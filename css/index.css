@@ -5,17 +5,18 @@
     border: 0;
  
  }
- body {
-    overflow-x: hidden ;
-    overflow-y: auto;
-    }
+
     iframe{
  margin-top: 160%;
  border: 0;
  position: absolute;
     }
  @media all  and (max-width:575px) {
-     iframe{
+      body {
+    overflow-x: hidden ;
+  width: 100%;
+    }
+    iframe{
          margin-top: 107%;
          border: 0;
          position: absolute;
